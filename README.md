@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [[(https://www.frontendmentor.io/solutions/social-links-profile-6MdP3WtwzY)]
 - Live Site URL: [(https://raymondkalama.github.io/Social-Links/)]
 
 ### Built with
