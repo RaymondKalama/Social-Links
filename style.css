@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 500px;
+  font-family: "Inter", "sans-serif";
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  margin-top: 3em;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-top: 3em;
+  background-color: hsl(0, 0%, 16%);
+  border-radius: 30px;
+}
+
+img {
+  width: 7em;
+  border-radius: 600px;
+  margin-top: 1em;
+}
+.intro h2 {
+  margin-top: 0.7em;
+  margin-bottom: 0.25em;
+  font-weight: 700;
+}
+
+.intro h4 {
+  margin: 0;
+  color: hsl(75, 94%, 57%);
+  font-size: 1.143rem;
+  font-weight: 600;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  width: 80%;
+  padding: 8px 0 8px 0;
+  margin: 0 0 0.5em 0;
+  font-weight: 600;
+  background-color: hsl(0, 0%, 28%);
+  list-style: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
+  caret-color: hsl(0, 0%, 8%);
+}
+
+@media screen and (min-width: 560px) {
+  body {
+    margin: 4em auto auto auto;
+    margin-top: 3em;
+    height: 600px;
+    text-align: center;
+  }
+  .container {
+    margin: auto;
+  }
+
+  ul li {
+    margin-bottom: 0.5em;
+  }
+}
